@@ -37,7 +37,7 @@ services:
       POSTGRESQL_PASSWORD: password
       POSTGRESQL_DATABASE: test_app
     ports:
-      - '8000:5432'
+      - '8001:5432'
     networks:
       - backend
 
